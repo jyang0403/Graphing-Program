@@ -1,0 +1,23 @@
+TEAM
+Jiashu Yang / jyang166 
+Ai Omae / aomae1
+Katelyn Surrao / ksurrao1
+
+DESIGN
+For our design, we utilized the input stream along with stringstream in order to process each line in a text document, then placing that data within a fill, function, or other class a plot would contain. Then, we passed these values to the Renderer, which evaluates the provided data appropriately, mapping fill, color, and function inputs stored in a plot object. The y-coordinates for each relative x-value is calculated and converted to an index (process below). 
+
+Start at x=x_min and iterate while x is less than or equal to x_max. 
+Calculate the product of the image width and height, then divide by 2. This is the "x=0" line. 
+Calculate a scalar value of y, that being (range of y / image height).
+Evaluate the expression at x using ExprParser, obtaining a double y value.
+Multiply said y-value by the scalar, and adjust slightly depending on positive or nonpositive value.
+While casting y-value to an integer, multiply it by the width to obtain the total y displacement relative to the pixel. 
+Subtract product from the center line and add the current x-index of the pixel (positive value will then go up in terms of the pixel index, and negative values will go down), obtaining the relative pixel index.
+After each iteration, add (range of x / image width) to get a change in the x value relative to the actual pixel index.
+
+After obtaining all of the y-coordinates for the x-coordinates of each function, we could then plot the fills by using these values for comparison, one per column, with every pixel index. We then similarly calculated the function lines, placing each pixel and its neighbors if possible, before writing the image.
+
+COMPLETENESS
+The project is certainly functional. Its outputs are practically identical to what is described, and error checking and memory deletion should be solid. There are a few slight variations in opacity and pixel placement. The fill opacity difference is especially puzzling, since we followed the given formula exactly as displayed on the project description, but the difference test returned that the coloring was incorrect, despite them looking exactly the same as far as we could tell. The function line pixel differences sometimes appear for a few pixels, with the index difference also being a single pixel apart. These are practically unnoticable, and are probably due to some rounding difference in calculating the coordinates.
+
+Also to note, is that there seems to be an error on github regarding the number of commits for each team member, where my name appears twice in a different format for some reason. However, we each have the correct number of actual commits.

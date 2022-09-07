@@ -1,0 +1,263 @@
+commit a9ce9f765f9e5ab3d66d4796ab16b0a93ae22361
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Fri Jul 29 12:07:49 2022 -0400
+
+    final versiongit add *!
+
+commit a39b69a44dc01b00e810c85055b4104e369294b8
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 19:30:35 2022 -0400
+
+    fixed nonzero return value bug
+
+commit fa0bb51bb8cf137edad34ee2dd9b321cc07a4946
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 15:54:10 2022 -0400
+
+    fixed plot bound checking bug
+
+commit 386f8dd540dce40985a8ef80ebfcf5f12bbffd2d
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 15:49:48 2022 -0400
+
+    fixed minor color bug, still shows errors on autograder
+
+commit f84b68c0544b7818e6d11a3e86e30f854b1d50d6
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 15:44:08 2022 -0400
+
+    finished first submission, now completing error checks before proceeding
+
+commit fb6654e21244a440d3fb0c9eb4bac162ce2f3d67
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 11:02:37 2022 -0400
+
+    finishing comments and README, testing first submission
+
+commit 8cdae85f8ef4a6496f2a1566365bd68f9ad297c5
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 10:24:39 2022 -0400
+
+    bug testing for memory, system comparison
+
+commit 57135a6a77f1f53b73015c572d3d991b204d7897
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 27 10:14:27 2022 -0400
+
+    bug testing for memory leak
+
+commit d8d43ccb9fef311a7a237dba2620dfe76d260f9b
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Tue Jul 26 20:17:17 2022 -0400
+
+    adding comments for (most) files
+
+commit 4a6cdf57a2317892faad8567ae8b2223a717c864
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Tue Jul 26 14:59:57 2022 -0400
+
+    fixed leaks in valgrind for given inputs, added some comments
+
+commit 617a4770822556a6a5e72856cd61f4a472535fc2
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Mon Jul 25 21:18:38 2022 -0400
+
+    finished first debug, still need to check for memory leaks and do minor debugging
+
+commit b1b6da4950435c7a401d5e3a38f164f763b6854d
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Mon Jul 25 19:36:32 2022 -0400
+
+    testing fill/debugging
+
+commit e0a4738dbf5351f7db0bfc1986130c2e44f9d68c
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Sun Jul 24 19:16:11 2022 -0400
+
+    changing uint8_t to uint32_t due to error
+
+commit c4999956a5a9b519e4c65c19572ca12bcbdb0296
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Sun Jul 24 19:10:00 2022 -0400
+
+    added iteration to delete vector of fills in destructor
+
+commit c3576a18ff8efb6ae89d0aa3d1e35ade046a19b2
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Sun Jul 24 19:09:10 2022 -0400
+
+    latest edits
+
+commit eb36dd2a43329e3d92ea3ff0c3fc83bb00459f65
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Sun Jul 24 19:07:00 2022 -0400
+
+    added color struct for func initialization
+
+commit 3179d5bf98527d297cea2e85db87e6bbe0341867
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Sun Jul 24 16:12:40 2022 -0400
+
+    set_funcptr is a part of constructor:deleted
+
+commit ca19583c8fb50c505b12d1ae7bce0284dd9c69e7
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Sun Jul 24 16:07:46 2022 -0400
+
+    testing/edits to reader in progress
+
+commit 4d0e813cc8001db8262776998e9b7284f1fe6de7
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Sat Jul 23 16:43:32 2022 -0400
+
+    #included vector
+
+commit 65b5331af88e331eaff92cc6883ddace63fab6e3
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 21:25:07 2022 -0400
+
+    implemented functions for getting coordinates for fill on plot
+
+commit 3490e5b0e8dc6c61345b1bea232b09b25d5f65f5
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 21:24:42 2022 -0400
+
+    implemented headers for getting coordinates for fill on plot
+
+commit 0aaecd1cade036adf783cabb1dc4bffd2429ec0c
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 20:50:02 2022 -0400
+
+    modified error messages for read_color and read_fill
+
+commit 55c9134cbf4acaf7355c5e58ab2bf8dbbc187998
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 20:36:02 2022 -0400
+
+    implemented destructor
+
+commit 549bb0c399d8d4758febd588ed61153b248f4175
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 20:35:49 2022 -0400
+
+    implemented destructor
+
+commit ca148973b829638d8da6980c48568738ea223c44
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 20:35:30 2022 -0400
+
+    implemented destructor
+
+commit 3e84c43fbf9bca9917785ed994115bbcad1acac9
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Fri Jul 22 20:35:12 2022 -0400
+
+    implemented destructor
+
+commit 848047f5f3323cbfedad33f83aee391a7046a432
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Fri Jul 22 19:59:28 2022 -0400
+
+    small edit to read_input()
+
+commit af95843d53ff79c59924ad8d61a7900fa387ee8b
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Fri Jul 22 14:01:20 2022 -0400
+
+    changes made to renderer and expr related files, new pixels.cpp
+
+commit 65a420bcfe477be53aa33785b0054d29109d1d37
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Fri Jul 22 13:36:00 2022 -0400
+
+    ver fill an object of plot class
+
+commit 2e03bb22128e22686460c3ec1908b02179e1b9c6
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Thu Jul 21 19:20:50 2022 -0400
+
+    modified r, g, b values to be of type uint8_t
+
+commit b946bca39b8829c51d03c129e28b9ec83cd88b73
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Thu Jul 21 19:20:13 2022 -0400
+
+    changed unsigned to uint8_t for color
+
+commit 357c938257c428182ff6d71493f466354adc974d
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Thu Jul 21 19:19:46 2022 -0400
+
+    changed instances of unsigned for color to uint8_t
+
+commit 06068b089259da40429e7f4eb5ed599ab8d03235
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Thu Jul 21 19:09:10 2022 -0400
+
+    updated exception handling for read_function
+
+commit e024007673efd2fa259afa84e948210895498ce1
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Thu Jul 21 18:54:42 2022 -0400
+
+    edits to color array indices in read fill
+
+commit bbad8cf47d87cc468963b3702145902d8a90399d
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Thu Jul 21 18:40:20 2022 -0400
+
+    wrote throw exceptions for read_color
+
+commit d6c572b15b4d903df0a9f6995c2e85cb68ba88e6
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Thu Jul 21 17:23:04 2022 -0400
+
+    ver of read_fill() where fill is object of func
+
+commit fc57497ec31dffd3d394f5281a17e6fe95c985fc
+Author: Katelyn Surrao <ksurrao1@jhu.edu>
+Date:   Wed Jul 20 20:40:44 2022 -0400
+
+    fixed get_function in get_color
+
+commit 024ab36edba301a2ce478a8d54e9b8bc95b8ad4b
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Wed Jul 20 20:23:24 2022 -0400
+
+    all three fill readers
+
+commit a1c47148b4802087cf1fe40aa49249f712899d6a
+Author: Ai Omae <aomae1@jhu.edu>
+Date:   Wed Jul 20 20:16:12 2022 -0400
+
+    edits to fill reader functions and func files
+
+commit 668ed8acaa38237a0ca744402cc321231d276bcd
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Wed Jul 20 19:36:14 2022 -0400
+
+    partially finished with reader and expression parsing
+
+commit af29bb3e87b5a849c8ec29827f5d170676790289
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Tue Jul 19 14:57:42 2022 -0400
+
+    added basic getter/setter functions for plot/bounds, now working on reading
+
+commit d7857e23b6d32db24a559cbc421adc0d362159b8
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Tue Jul 19 12:50:26 2022 -0400
+
+    made a few basic field declarations
+
+commit a9751a4abd232243fb0d20550e048c83cca4f42e
+Author: Jiashu Yang <jyang166@jhu.edu>
+Date:   Tue Jul 19 08:34:46 2022 -0400
+
+    uploading project files
+
+commit 490f32873269d86eca3549876f072ca02281d6f4
+Author: Jiashu Yang <100871205+jyang0403@users.noreply.github.com>
+Date:   Tue Jul 19 08:31:16 2022 -0400
+
+    Create README
